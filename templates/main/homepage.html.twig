@@ -1,3 +1,14 @@
-<h1>Bog neka te čuva moj Leonardo
-	{{ puta }}
-	puta!</h1>
+{% extends 'base.html.twig' %}
+
+{% block title %}
+	{{ parent() }}
+	početna
+{% endblock %}
+
+{% block body %}
+	<dir>
+		<h1>Bog neka te čuva moj Leonardo
+			{{ puta }}
+			puta!</h1>
+	</dir>
+{% endblock %}
