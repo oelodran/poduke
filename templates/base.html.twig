@@ -9,6 +9,7 @@
 		</title>
 		{% block stylesheets %}{% endblock %}
 		{% block javascripts %}{% endblock %}
+            {% block importmap %}{{ importmap('app') }}{% endblock %}
 	</head>
 	<body>
 		{% block body %}{% endblock %}
